@@ -1,7 +1,7 @@
 [build]
   base = "betting-pool"
   publish = "build"
-  command = "npm install && npm run build"
+  command = "npm install && npm run build && npm start"
 
 [[redirects]]
   from = "/*"
