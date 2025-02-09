@@ -2,27 +2,24 @@
   "name": "betting-pool",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nancyhung.github.io/superbowl/",
   "dependencies": {
     "@supabase/supabase-js": "^2.38.4",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
     "lucide-react": "^0.294.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.20.0",
     "react-scripts": "5.0.1",
-    "tailwindcss": "^3.3.5",
-    "class-variance-authority": "^0.7.0",
-    "clsx": "^2.0.0",
     "tailwind-merge": "^2.0.0",
+    "tailwindcss": "^3.3.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -49,7 +46,6 @@
     "autoprefixer": "^10.4.17",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "gh-pages": "^6.3.0",
     "lucide-react": "^0.475.0",
     "postcss": "^8.4.35",
     "tailwind-merge": "^3.0.1",

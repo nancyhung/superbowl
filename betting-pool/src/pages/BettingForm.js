@@ -64,6 +64,7 @@ export default function BettingForm() {
 
       if (error) throw error;
       
+      console.log('Successfully submitted bet:', data);
       alert('Thanks for submitting your bets!');
       // Reset form
       setFormData({
@@ -161,7 +162,7 @@ export default function BettingForm() {
                     />
                   </div>
                   <div className="space-y-2">
-                    <label className="text-sm font-medium">Will Travis Propose?</label>
+                    <label className="text-sm font-medium">Will Travis propose?</label>
                     <Select
                       onValueChange={(value) => handleChange('taylorSwift', 'proposal', value)}
                       value={formData.taylorSwift.proposal}
@@ -197,7 +198,7 @@ export default function BettingForm() {
                     />
                   </div>
                   <div className="space-y-2">
-                    <label className="text-sm font-medium">Will Attendees Become Football Literate?</label>
+                    <label className="text-sm font-medium">Will attendees become football literate?</label>
                     <Select
                       onValueChange={(value) => handleChange('other', 'literacy', value)}
                       value={formData.other.literacy}

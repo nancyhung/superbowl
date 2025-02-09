@@ -1,4 +1,4 @@
 # Dependencies
-/node_modules
-.env
+/betting-pool/node_modules
+/betting-pool/.env
 .DS_Store
