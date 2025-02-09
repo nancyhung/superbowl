@@ -2,7 +2,7 @@
   "name": "betting-pool",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nancyhung.github.io/superbowl/betting-pool",
+  "homepage": "https://nancyhung.github.io/superbowl/",
   "dependencies": {
     "@supabase/supabase-js": "^2.38.4",
     "lucide-react": "^0.294.0",
