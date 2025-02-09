@@ -3,24 +3,6 @@ import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import BettingForm from './pages/BettingForm';
 import Leaderboard from './pages/Leaderboard';
 import Admin from './pages/Admin';
-import { Lightbulb } from 'lucide-react';
-import { supabase } from './lib/supabase';
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "./components/ui/accordion";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "./components/ui/select";
-import { Input } from "./components/ui/input";
-import { Button } from "./components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "./components/ui/card";
 
 function App() {
   return (
